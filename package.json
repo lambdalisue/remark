@@ -49,6 +49,7 @@
       , "clojure"
       , "http"
       , "haskell"
+      , "vim"
       ]
     }
   }

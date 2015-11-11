@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Awesome Presentation</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <style type="text/css">
-      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
-      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+<meta charset="utf-8">
+<title>My Awesome Presentation</title>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
-      body { font-family: 'Droid Serif'; }
-      h1, h2, h3 {
-        font-family: 'Yanone Kaffeesatz';
-        font-weight: normal;
-      }
-      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
-    </style>
-  </head>
-  <body onload="var slideshow = remark.create();">
-    <textarea id="source">
+body { font-family: 'Droid Serif'; }
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+}
+.remark-slide-content {
+  /* css for slide content */
+}
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+</style>
+<body onload="var slideshow = remark.create();">
+<textarea id="source">
 
 class: center, middle
 
@@ -36,9 +36,8 @@ class: center, middle
 
 # Introduction
 
-    </textarea>
-    <script type="text/javascript">
-      document.write(unescape("%3Cscript type='text/javascript'%3E" + "%REMARK_MINJS%" + "%3C/script%3E"));
-    </script>
-  </body>
-</html>
+</textarea>
+<script type="text/javascript">
+document.write(unescape("%3Cscript type='text/javascript'%3E" + "%REMARK_MINJS%" + "%3C/script%3E"));
+</script>
+</body>
